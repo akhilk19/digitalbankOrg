@@ -15,7 +15,7 @@ class App extends Component {
       }
       this.onSuccess=this.onSuccess.bind(this);
     }
-    
+    /*
     onSuccess(param,param2){
         console.log("Success app.js "+param);
         this.setState({
@@ -23,13 +23,13 @@ class App extends Component {
           visibleDiv:param2
         })
         console.log(this.state.data);
-   
-    }
+
+    }*/
     render(){
       return(
         <Container className="background">
       <div className="background">
-      
+
         <div className={this.state.visibleDiv=="1"?" ":" displayNone"}>
           <UploadImage />
         </div>
@@ -37,7 +37,7 @@ class App extends Component {
           <Success info={this.state.data} divNum={this.state.visibleDiv}/>
           <MainFile Success={this.onSuccess}/>
         </div>
-        
+
       </div>
       </Container>);
     }
