@@ -15,7 +15,7 @@ class App extends Component {
       }
       this.onSuccess=this.onSuccess.bind(this);
     }
-    /*
+
     onSuccess(param,param2){
         console.log("Success app.js "+param);
         this.setState({
@@ -23,8 +23,11 @@ class App extends Component {
           visibleDiv:param2
         })
         console.log(this.state.data);
+      }
 
-    }*/
+      onFailure(param){
+        console.log("Failure Hit With root cause");
+      }
     render(){
       return(
         <Container className="background">
