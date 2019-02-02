@@ -1,0 +1,24 @@
+.main{
+    align-content: center;
+    margin-top:25px;
+    border:black;
+    height:200px !important;
+    padding:50px;
+}
+.right-section{
+    padding-left: -25px;
+    text-align:left;
+}
+.left-section{
+    text-align: right;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-weight: 700;
+    font-size: xx-large;
+    font-variant: common-ligatures;
+    font-style: oblique;
+    text-align: justify;
+}
